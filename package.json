@@ -1,0 +1,12 @@
+{
+  "name": "stocksense-ai-root",
+  "version": "1.0.0",
+  "description": "StockSense AI — University Stationery Store and Delivery Management System",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "backend:dev": "node --watch backend/src/server.js",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "bootstrap:admin": "npm --prefix backend run bootstrap:admin",
+    "test:workflows": "node backend/test_all_workflows.js"
+  }
+}
